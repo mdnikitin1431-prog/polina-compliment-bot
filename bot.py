@@ -7,7 +7,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from aiohttp import web
 
-TOKEN = "8601587831:AAGOxwTYLq_gJ7oHOzrDR-001TXubjeFPWc"
+TOKEN = os.getenv("BOT_TOKEN")
 STICKER_PACK_NAME = "myaumurksksks_by_TgEmojiBot"
 
 # Render автоматически выдает URL твоего приложения в переменную окружения RENDER_EXTERNAL_URL
